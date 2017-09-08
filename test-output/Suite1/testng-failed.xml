@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]" parallel="tests">
+  <test name="Regression2(failed)" parallel="tests">
+    <classes>
+      <class name="Sample_Group.Sample_Artifact.FlipKartTesting">
+        <methods>
+          <include name="search"/>
+          <include name="Initialization"/>
+          <include name="aftertest"/>
+          <include name="selectItem"/>
+          <include name="openSite"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- Sample_Group.Sample_Artifact.FlipKartTesting -->
+    </classes>
+  </test> <!-- Regression2(failed) -->
+  <test name="Regression1(failed)" parallel="tests">
+    <classes>
+      <class name="Sample_Group.Sample_Artifact.linkedinSearch">
+        <methods>
+          <include name="Initialization"/>
+          <include name="aftertest"/>
+          <include name="login"/>
+          <include name="openSite"/>
+        </methods>
+      </class> <!-- Sample_Group.Sample_Artifact.linkedinSearch -->
+    </classes>
+  </test> <!-- Regression1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

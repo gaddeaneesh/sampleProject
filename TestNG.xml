@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" parallel="false">
+	<listeners>
+		<listener class-name="utility.Listener"></listener>
+	</listeners>
+	<test name="Regression2">
+		<classes>
+			<class name="Sample_Group.Sample_Artifact.FlipKartTesting" />
+		</classes>
+	</test>
+</suite>
+
+

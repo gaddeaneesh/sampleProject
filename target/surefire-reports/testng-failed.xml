@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite1]">
+  <listeners>
+    <listener class-name="utility.Listener"/>
+  </listeners>
+  <test name="Regression2(failed)">
+    <classes>
+      <class name="Sample_Group.Sample_Artifact.FlipKartTesting">
+        <methods>
+          <include name="search"/>
+          <include name="Initialization"/>
+          <include name="aftertest"/>
+          <include name="selectItem"/>
+          <include name="TestcaseToFail"/>
+          <include name="openSite"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- Sample_Group.Sample_Artifact.FlipKartTesting -->
+    </classes>
+  </test> <!-- Regression2(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Sample_Group.Sample_Artifact.FlipKartTesting">
+        <methods>
+          <include name="Initialization"/>
+          <include name="aftertest"/>
+          <include name="TestcaseToFail"/>
+          <include name="openSite"/>
+        </methods>
+      </class> <!-- Sample_Group.Sample_Artifact.FlipKartTesting -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
