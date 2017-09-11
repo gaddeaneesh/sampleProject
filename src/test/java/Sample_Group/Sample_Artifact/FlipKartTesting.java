@@ -87,12 +87,7 @@ public class FlipKartTesting {
 		By orders = By.xpath("//div[@id='container']//a[text()='Orders']");
 		clickButton(orders);
 	}
-	@Test(enabled=false)
-	public void TestcaseToFail()
-	{	
-		String title=driver.getTitle();
-        assertEquals(title, "InCorrect Title");
-	}
+	
 	@AfterTest
 	public void aftertest()
 	{
